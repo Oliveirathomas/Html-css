@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+        <style>
+            body{
+                background-image : url(./imagens/poster.jpg);
+                width: auto;
+                padding: 10px brown;
+                box-shadow: 50px black;
+            }
+            h1{ background-image: url(./imagens/pequena.png );
+                margin: 5px;
+                display: inline;
+            }
+        </style>
+
+</head>
+
+<body>
+    <h1>Edicao de imagens</h1>
+    <h2>Varios tipos de edicao</h2>
+    <img src="Novas imagens/grande.png.png" alt="" sizes="cover" srcset="imagem fundo">
+    <source media="(min-width: )" srcset="" type="image/">
+    <h1>Reproduzindo audio</h1>
+    <audio preload="metadata" controls>
+        <source src="/audio/I Feel It All So Deeply - Bail Bonds.mp3" type="audio/mpeg">
+        <source src="/audio/The Moon Drops - Nathan Moore.mp3" type="audio/mpeg">
+        <source src="/audio/When You're Not Looking - Nathan Moore.mp3" type="audio/mpeg">
+        <p>Faça aqui o seu download <a href="/audio/I Feel It All So Deeply - Bail Bonds.mp3">download</a> </p>
+    </audio>
+    <h2>Video do servidor</h2>
+    <video controls width="500" height="500" poster="/imagens/poster.jpg">
+        <source src="/video/teste.mp4" type="video/mp4"> 
+    </video>
+    <h2>Video do youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+    </iframe>
+</body>
+</html>

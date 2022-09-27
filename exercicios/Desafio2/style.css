@@ -1,0 +1,55 @@
+<style>
+        @font-face {
+            font-family: ;
+            src: url('fontes/idroid.otf') format('opentype') ;
+            display:initial
+        }
+        header{
+                background-image: linear-gradient(to top , #00B000 ,#5EFFA4 );
+                text-align: center;
+                color: white;
+              }
+        h1{
+            font-size: xx-large;color: #00B000;text-align: center;font-family: var(android);
+          }
+        h2{
+            font-size: medium;color: #00B000;text-align: center;background-color:
+        }
+        a {
+            color: white ;
+            margin: 10px;
+            text-decoration-line: none;
+        }
+        body{
+            background-color: lightgreen ;           
+            width:fit-content;
+            height:fit-content;
+            color: black;
+                }
+        nav{
+            text-align: left;
+            }
+       @font-face {
+        font-family: "android";
+        src: url('/fontes/idroid.otf') format('opentype');
+       }
+       main{
+        background-color: white;
+        padding:10px;
+        height: ;;
+       }
+       .caixa video{
+        background-color: darkgreen;
+        width: 200px;
+        padding: 10px;
+       }
+       h4{
+        background-color: darkgreen;
+         }
+         main img.droid{
+            display: block;
+            margin: auto;
+            width: 50%;
+         }
+        </style>
+        
